@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Arnold Nyamongo | My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- script.js belongs inside <head>; "defer" runs it after the page loads -->
+    <script src="script.js" defer></script>
 </head>
 <body>
 
     <header>
         <h1>My Portfolio</h1>
-        <p>Information Technology Student & Aspiring Developer</p>
+        <p>Software Developer & IT Specialist</p>
 
         <nav>
             <ul>
@@ -26,27 +29,29 @@
         <section id="about">
             <h2>About Me</h2>
 
-          <img src="images/arnold.jpg" alt="Photo of Arnold">
+            <img src="images/arnold.jpg" alt="Photo of Arnold">
 
             <p>
-                Hello! My name is Arnold Nyamongo. I am an Information Technology
-                student passionate about web development, programming,
-                databases, and technology. I enjoy learning how software
-                can be used to solve real-world problems.
+                Hello! My name is Arnold Nyamongo.I am an Information Technology specialist and developer with a strong focus on web development, programming, and database architecture. I have hands-on experience building responsive web applications using React and Tailwind CSS.
+
+Beyond just writing code, I am passionate about problem-solving and continuous improvement. I enjoy diving into complex technical challenges, optimizing user interfaces and ensuring that the software I build is not only functional but also provides a seamless and engaging experience. My goal is to use technology as a tool to solve real-world problems and drive innovation.
+
+
             </p>
 
             <p>
-                I am currently developing my skills in HTML, CSS, JavaScript,
-                PHP, MySQL, and other technologies. My goal is to become a
-                skilled software developer and continue building useful
-                technology solutions.
+               <p>
+    I am a software developer focused on building responsive web applications and cross-platform software. 
+    My core stack includes HTML, CSS, JavaScript, PHP, and MySQL. 
+    I use these technologies to build practical solutions that solve real-world problems.
+</p>
             </p>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
 
-            <ul>
+            <ul class="skills">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -57,7 +62,7 @@
                 <li>Web Development</li>
             </ul>
         </section>
-       
+
         <section id="projects">
             <h2>Projects</h2>
 
@@ -70,7 +75,8 @@
                     payroll, and performance records.
                 </p>
 
-                <a href="#" target="_blank">View Project</a>
+                <!-- Add your link when the project is online:
+                <a href="PASTE-LINK-HERE" target="_blank" rel="noopener">View Project</a> -->
             </article>
 
             <article>
@@ -82,7 +88,8 @@
                     inventory, and reports.
                 </p>
 
-                <a href="#" target="_blank">View Project</a>
+                <!-- Add your link when the project is online:
+                <a href="PASTE-LINK-HERE" target="_blank" rel="noopener">View Project</a> -->
             </article>
 
             <article>
@@ -94,24 +101,21 @@
                     information.
                 </p>
 
-                <a href="#" target="_blank">View Project</a>
+                
             </article>
         </section>
 
-</section>
         <section id="contact">
             <h2>Contact Me</h2>
 
             <p>
-                Email:
-                <a href="mailto:arnoldnyams@gmail.com">
-                    arnoldnyams@gmail.com
-                </a>
-            </p>
+    Email:
+    <a href="https://mail.google.com/mail/?view=cm&amp;to=arnoldnyams@gmail.com&amp;su=Portfolio%20enquiry" target="_blank" rel="noopener">Write me an email</a>
+</p>
 
             <p>
                 GitHub:
-                <a href="https://github.com/" target="_blank">
+                <a href="https://github.com/Arnoldoo1" target="_blank" rel="noopener">
                     My GitHub Profile
                 </a>
             </p>
@@ -122,17 +126,11 @@
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
 
-                <br><br>
-
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
 
-                <br><br>
-
                 <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-
-                <br><br>
+                <textarea id="message" name="message" rows="5"></textarea>
 
                 <button type="submit">Send Message</button>
             </form>
@@ -141,7 +139,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2026 Arnold Nyamongo. All rights reserved.</p>
     </footer>
 
 </body>
